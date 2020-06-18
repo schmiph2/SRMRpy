@@ -9,11 +9,10 @@ setup(
     name = "SRMRpy",
     version = "1.0",
     packages = find_packages(),
-
+    setup_requires = ['Gammatone @ https://github.com/schmiph2/SRMRpy/archive/master.zip#egg=Gammatone',]
     install_requires = [
         'numpy',
         'scipy',
-        'Gammatone',
     ],
 
     tests_require = [
